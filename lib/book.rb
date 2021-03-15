@@ -6,18 +6,18 @@ class Book
 
   GENRES = []
   
-  
   def initialize(title)
     @title = title
   end
-
+  
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
-
+  
 #create writer for genre and add logic for the class constant
   def genre=(genre)
     @genre = genre
     GENRES << genre
-  end
+  end 
+  
 end
